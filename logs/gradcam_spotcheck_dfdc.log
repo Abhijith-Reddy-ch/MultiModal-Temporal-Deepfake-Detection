@@ -1,0 +1,171 @@
+Using cache found in C:\Users\srees/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\srees/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\srees/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\srees/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1783829551.795295   14512 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1783829554.825553   14512 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+W0000 00:00:1783829555.897414    3520 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1783829555.930244   11316 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783829555.938239   21208 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1783829556.018844   14512 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+C:\Users\srees\miniconda3\Lib\site-packages\torch\autograd\graph.py:869: UserWarning: Attempting to run cuBLAS, but there was no current CUDA context! Attempting to set the primary context... (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\cuda\CublasHandlePool.cpp:335.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+W0000 00:00:1783829562.012587   11520 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783829562.016536    1576 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783829562.023317    1576 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+W0000 00:00:1783829567.127907   17332 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783829567.131868   23864 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783829567.138515   11368 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+W0000 00:00:1783829572.117690    8476 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783829572.121617   12656 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783829572.128654   22460 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+W0000 00:00:1783829574.457934    1816 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783829574.462124   25448 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783829574.468929   25448 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+W0000 00:00:1783829575.899801    9140 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783829575.903977    8992 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783829575.910462    8992 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Running Grad-CAM on 6 most-confidently-wrong DFDC fakes:
+  data/raw/DFDC/cferslmfwh.mp4  prob=0.0004  original=fygviyzcjm.mp4
+  data/raw/DFDC/diuzrpqjli.mp4  prob=0.0004  original=smggzgxymo.mp4
+  data/raw/DFDC/apatcsqejh.mp4  prob=0.0004  original=edyncaijwx.mp4
+  data/raw/DFDC/atxvxouljq.mp4  prob=0.0006  original=wwqiuiwdbz.mp4
+  data/raw/DFDC/deywhkarol.mp4  prob=0.0007  original=ljaifbsfuw.mp4
+  data/raw/DFDC/asvcrfdpnq.mp4  prob=0.0008  original=upgerjvcjb.mp4
+Loaded Stage B classifier from D:\deepfake_detection\deepfake_detection_project\models\stageB_best_classifier.pth
+Inference model ready (Stage B, device=cuda)
+
+--- data/raw/DFDC/cferslmfwh.mp4 (orig fake_prob 0.0004) ---
+  Re-scored fake_probability: 0.0004
+  GMU gate (visual weight): 0.4946
+  Manipulation-type breakdown (top 3): [('real', 0.9997304081916809), ('faceswap', 0.00011104158329544589), ('unknown_fake', 8.020763925742358e-05)]
+  Grad-CAM images written to: outputs/misclassified/dfdc_gradcam_spotcheck\cferslmfwh
+
+--- data/raw/DFDC/diuzrpqjli.mp4 (orig fake_prob 0.0004) ---
+  Re-scored fake_probability: 0.0005
+  GMU gate (visual weight): 0.4963
+  Manipulation-type breakdown (top 3): [('real', 0.9997223019599915), ('faceswap', 9.99996846076101e-05), ('unknown_fake', 7.440479384968057e-05)]
+  Grad-CAM images written to: outputs/misclassified/dfdc_gradcam_spotcheck\diuzrpqjli
+
+--- data/raw/DFDC/apatcsqejh.mp4 (orig fake_prob 0.0004) ---
+  Re-scored fake_probability: 0.0006
+  GMU gate (visual weight): 0.5009
+  Manipulation-type breakdown (top 3): [('real', 0.9995059967041016), ('faceswap', 0.0002759308263193816), ('fsgan', 9.869648783933371e-05)]
+  Grad-CAM images written to: outputs/misclassified/dfdc_gradcam_spotcheck\apatcsqejh
+
+--- data/raw/DFDC/atxvxouljq.mp4 (orig fake_prob 0.0006) ---
+  Re-scored fake_probability: 0.0007
+  GMU gate (visual weight): 0.4934
+  Manipulation-type breakdown (top 3): [('real', 0.9995871186256409), ('fsgan', 0.00020218129793647677), ('faceswap', 0.00013415618741419166)]
+  Grad-CAM images written to: outputs/misclassified/dfdc_gradcam_spotcheck\atxvxouljq
+
+--- data/raw/DFDC/deywhkarol.mp4 (orig fake_prob 0.0007) ---
+  Re-scored fake_probability: 0.0007
+  GMU gate (visual weight): 0.4834
+  Manipulation-type breakdown (top 3): [('real', 0.9995408058166504), ('unknown_fake', 0.00018515838019084185), ('faceswap', 0.00011316616291878745)]
+  Grad-CAM images written to: outputs/misclassified/dfdc_gradcam_spotcheck\deywhkarol
+
+--- data/raw/DFDC/asvcrfdpnq.mp4 (orig fake_prob 0.0008) ---
+  Re-scored fake_probability: 0.0008
+  GMU gate (visual weight): 0.4836
+  Manipulation-type breakdown (top 3): [('real', 0.9996364116668701), ('fsgan', 0.00017606347682885826), ('faceswap', 0.00011445769632700831)]
+  Grad-CAM images written to: outputs/misclassified/dfdc_gradcam_spotcheck\asvcrfdpnq
+
+Done. All heatmaps under outputs/misclassified/dfdc_gradcam_spotcheck/<video_id>/gradcam_frame*_<region>.jpg

@@ -1,0 +1,49 @@
+Using device: cuda
+Loading DINOv2 ViT-S/14 with LoRA on last 4 blocks...
+Using cache found in C:\Users\srees/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\srees/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\srees/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\srees/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+trainable params: 196,608 || all params: 22,253,184 || trainable%: 0.8835
+Loading Whisper-tiny encoder with LoRA on last block...
+trainable params: 55,296 || all params: 7,687,680 || trainable%: 0.7193
+Loading Stage A weights from models\stageA_best_model.pth
+
+[Data Distribution] Real: 2558  Fake: 7674  Total: 10232
+[Val set] 6100 videos
+
+[DataLoader] physical_batch=4 grad_accum=4 (effective batch=16) num_workers=10
+Resuming from in-progress checkpoint at epoch 1 (batch 2860)
+Starting Stage B Training (LoRA fine-tune, raw crops/audio)...
+  Batch 40/2558 | Loss: 0.1410
+  Batch 80/2558 | Loss: 0.2227
+  Batch 120/2558 | Loss: 0.0317
+  Batch 160/2558 | Loss: 0.0047
+  Batch 200/2558 | Loss: 0.0662
+  Batch 240/2558 | Loss: 0.0096
+  Batch 280/2558 | Loss: 0.0069
+  Batch 320/2558 | Loss: 0.0096
+  Batch 360/2558 | Loss: 3.7213
+  Batch 400/2558 | Loss: 0.0763
+  Batch 440/2558 | Loss: 0.0219
+  Batch 480/2558 | Loss: 0.0097
+  Batch 520/2558 | Loss: 0.0241
+  Batch 560/2558 | Loss: 0.0133
+  Batch 600/2558 | Loss: 0.0043
+  Batch 640/2558 | Loss: 0.0728
+  Batch 680/2558 | Loss: 0.0948
+  Batch 720/2558 | Loss: 0.0543
+  Batch 760/2558 | Loss: 0.0051
+  Batch 800/2558 | Loss: 0.0946
+  Batch 840/2558 | Loss: 0.0976
+  Batch 880/2558 | Loss: 0.0169
+  Batch 920/2558 | Loss: 0.0680
+  Batch 960/2558 | Loss: 0.0163
+  Batch 1000/2558 | Loss: 0.0696
+  Batch 1040/2558 | Loss: 0.0151
+  Batch 1080/2558 | Loss: 0.0505
+  Batch 1120/2558 | Loss: 1.6533
+  Batch 1160/2558 | Loss: 0.0835

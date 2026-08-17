@@ -1,0 +1,756 @@
+Using cache found in C:\Users\srees/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\srees/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\srees/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\srees/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+INFO:     Started server process [2232]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Loading model for API...
+Loaded Stage B classifier from D:\deepfake_detection\deepfake_detection_project\models\stageB_best_classifier.pth
+Inference model ready (Stage B, device=cuda)
+Model loaded successfully.
+INFO:     127.0.0.1:49926 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62210 - "GET /health HTTP/1.1" 200 OK
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1783659742.296695   12468 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+INFO:     127.0.0.1:56134 - "GET /health HTTP/1.1" 200 OK
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1783659748.763269   12468 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+W0000 00:00:1783659751.191988   25556 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1783659751.215913   23164 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783659751.247425   12440 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1783659751.309370   12468 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+INFO:     127.0.0.1:50961 - "GET /health HTTP/1.1" 200 OK
+[PREDICT] Ingested file: 00015.mp4
+          Verdict: Real (prob: 0.0044, conf: 0.9956)
+          Anomalies -> VFR: False, Missing Audio: False, Missing Created Time: True
+INFO:     127.0.0.1:56132 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62973 - "GET /health HTTP/1.1" 200 OK
+[out#0/wav @ 0000029d2db46400] Output file does not contain any stream
+Error opening output file C:\Users\srees\AppData\Local\Temp\tmp3sq8tywy\audio.wav.
+Error opening output files: Invalid argument
+W0000 00:00:1783659771.241768   26264 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783659771.322933   14196 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783659771.347151   14196 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+[PREDICT] Ingested file: 0000_fake.mp4
+          Verdict: Real (prob: 0.8596, conf: 0.1404)
+          Anomalies -> VFR: False, Missing Audio: True, Missing Created Time: True
+INFO:     127.0.0.1:64882 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57442 - "GET /health HTTP/1.1" 200 OK
+[out#0/wav @ 000001412ea86400] Output file does not contain any stream
+Error opening output file C:\Users\srees\AppData\Local\Temp\tmpkpmq4r4_\audio.wav.
+Error opening output files: Invalid argument
+W0000 00:00:1783659783.880459   26440 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783659783.894545   18656 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783659783.917515   18656 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+[PREDICT] Ingested file: 0006_fake.mp4
+          Verdict: Fake (prob: 0.9982, conf: 0.9982)
+          Anomalies -> VFR: False, Missing Audio: True, Missing Created Time: True
+INFO:     127.0.0.1:59053 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57379 - "GET /health HTTP/1.1" 200 OK
+[out#0/wav @ 00000193c01f6580] Output file does not contain any stream
+Error opening output file C:\Users\srees\AppData\Local\Temp\tmpwto6hssz\audio.wav.
+Error opening output files: Invalid argument
+W0000 00:00:1783659804.213413   12980 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783659804.227237   15088 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783659804.250822   15088 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+[PREDICT] Ingested file: 0007_fake.mp4
+          Verdict: Fake (prob: 0.9789, conf: 0.9789)
+          Anomalies -> VFR: False, Missing Audio: True, Missing Created Time: True
+INFO:     127.0.0.1:60866 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63656 - "GET /health HTTP/1.1" 200 OK
+[out#0/wav @ 000001e051d9e280] Output file does not contain any stream
+Error opening output file C:\Users\srees\AppData\Local\Temp\tmph5rek6it\audio.wav.
+Error opening output files: Invalid argument
+W0000 00:00:1783659815.986678    4632 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783659816.002407   16540 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783659816.024521   16540 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+[PREDICT] Ingested file: 0020_fake.mp4
+          Verdict: Fake (prob: 0.9932, conf: 0.9932)
+          Anomalies -> VFR: False, Missing Audio: True, Missing Created Time: True
+INFO:     127.0.0.1:57406 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50843 - "GET /health HTTP/1.1" 200 OK
+[out#0/wav @ 000002098c7312c0] Output file does not contain any stream
+Error opening output file C:\Users\srees\AppData\Local\Temp\tmpw8_oi41d\audio.wav.
+Error opening output files: Invalid argument
+W0000 00:00:1783659832.619565   18640 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783659832.634295   27668 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783659832.658000   16844 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+[PREDICT] Ingested file: 00001.mp4
+          Verdict: Real (prob: 0.3910, conf: 0.6090)
+          Anomalies -> VFR: False, Missing Audio: True, Missing Created Time: True
+INFO:     127.0.0.1:56768 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51340 - "GET /health HTTP/1.1" 200 OK
+[out#0/wav @ 000001d1990c6b80] Output file does not contain any stream
+Error opening output file C:\Users\srees\AppData\Local\Temp\tmp_sa60ugi\audio.wav.
+Error opening output files: Invalid argument
+W0000 00:00:1783659850.465469   14256 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783659850.477538    1924 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783659850.500770   19428 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+[PREDICT] Ingested file: 0008.mp4
+          Verdict: Real (prob: 0.0572, conf: 0.9428)
+          Anomalies -> VFR: False, Missing Audio: True, Missing Created Time: True
+INFO:     127.0.0.1:52684 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62853 - "GET /health HTTP/1.1" 200 OK
+W0000 00:00:1783659871.414443   14768 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783659871.432346   22340 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783659871.461150    8796 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+INFO:     127.0.0.1:64894 - "GET /health HTTP/1.1" 200 OK
+[PREDICT] Ingested file: 2.mp4
+          Verdict: Real (prob: 0.2930, conf: 0.7070)
+          Anomalies -> VFR: False, Missing Audio: False, Missing Created Time: True
+INFO:     127.0.0.1:63188 - "POST /predict HTTP/1.1" 200 OK
+W0000 00:00:1783659885.818111    2052 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783659885.831515   28396 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783659885.854977    7548 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+INFO:     127.0.0.1:54354 - "GET /health HTTP/1.1" 200 OK
+[PREDICT] Ingested file: 5.mov
+          Verdict: Real (prob: 0.0053, conf: 0.9947)
+          Anomalies -> VFR: False, Missing Audio: False, Missing Created Time: True
+INFO:     127.0.0.1:57900 - "POST /predict HTTP/1.1" 200 OK
+W0000 00:00:1783659899.213954   14252 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783659899.235996   14208 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783659899.262077    1844 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+INFO:     127.0.0.1:50961 - "GET /health HTTP/1.1" 200 OK
+[PREDICT] Ingested file: 1.mp4
+          Verdict: Real (prob: 0.0053, conf: 0.9947)
+          Anomalies -> VFR: True, Missing Audio: False, Missing Created Time: False
+INFO:     127.0.0.1:59504 - "POST /predict HTTP/1.1" 200 OK
+W0000 00:00:1783659910.310325   10144 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783659910.327383   19292 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783659910.353376   19292 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+[PREDICT] Ingested file: 2.mp4
+          Verdict: Real (prob: 0.1358, conf: 0.8642)
+          Anomalies -> VFR: True, Missing Audio: False, Missing Created Time: False
+INFO:     127.0.0.1:51171 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63318 - "GET /health HTTP/1.1" 200 OK
+W0000 00:00:1783659923.716016   10244 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783659923.742717    6176 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783659923.775926    3616 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+[PREDICT] Ingested file: 3.mp4
+          Verdict: Real (prob: 0.2747, conf: 0.7253)
+          Anomalies -> VFR: True, Missing Audio: False, Missing Created Time: False
+INFO:     127.0.0.1:57023 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62759 - "GET /health HTTP/1.1" 200 OK
+W0000 00:00:1783659938.310287   10060 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783659938.324036    6256 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783659938.348398    6256 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+[PREDICT] Ingested file: 3.mp4
+          Verdict: Real (prob: 0.2348, conf: 0.7652)
+          Anomalies -> VFR: False, Missing Audio: False, Missing Created Time: True
+INFO:     127.0.0.1:54500 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58696 - "GET /health HTTP/1.1" 200 OK
+W0000 00:00:1783659948.573769   20280 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783659948.587167   13316 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783659948.610398   13316 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+[PREDICT] Ingested file: 4.mp4
+          Verdict: Fake (prob: 0.9984, conf: 0.9984)
+          Anomalies -> VFR: False, Missing Audio: False, Missing Created Time: True
+INFO:     127.0.0.1:49576 - "POST /predict HTTP/1.1" 200 OK
+W0000 00:00:1783659959.390039    5024 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783659959.427001    7192 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783659959.453194    7192 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+INFO:     127.0.0.1:55309 - "GET /health HTTP/1.1" 200 OK
+[PREDICT] Ingested file: 1.mp4
+          Verdict: Real (prob: 0.0215, conf: 0.9785)
+          Anomalies -> VFR: False, Missing Audio: False, Missing Created Time: True
+INFO:     127.0.0.1:54227 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64462 - "GET /health HTTP/1.1" 200 OK
+W0000 00:00:1783659978.430987   21880 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783659978.443788   14384 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783659978.467385   11168 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+[PREDICT] Ingested file: ar_1_to_en_MicroTts.mp4
+          Verdict: Fake (prob: 1.0000, conf: 1.0000)
+          Anomalies -> VFR: False, Missing Audio: False, Missing Created Time: True
+INFO:     127.0.0.1:58896 - "POST /predict HTTP/1.1" 200 OK
+W0000 00:00:1783659990.568714    6828 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783659990.582011   15700 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783659990.604735   18156 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+INFO:     127.0.0.1:61666 - "GET /health HTTP/1.1" 200 OK
+[PREDICT] Ingested file: ar_9_to_en_MicroTts.mp4
+          Verdict: Fake (prob: 1.0000, conf: 1.0000)
+          Anomalies -> VFR: False, Missing Audio: False, Missing Created Time: True
+INFO:     127.0.0.1:62132 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56558 - "GET /health HTTP/1.1" 200 OK
+W0000 00:00:1783660016.809585   12164 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783660016.824698    7024 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783660016.856297    7024 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+[PREDICT] Ingested file: es_2.mp4
+          Verdict: Real (prob: 0.0007, conf: 0.9993)
+          Anomalies -> VFR: False, Missing Audio: False, Missing Created Time: True
+INFO:     127.0.0.1:51542 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63935 - "GET /health HTTP/1.1" 200 OK
+W0000 00:00:1783660024.704130   25892 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783660024.719868    6928 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783660024.748048   14428 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+C:\Users\srees\miniconda3\Lib\site-packages\torch\autograd\graph.py:869: UserWarning: Attempting to run cuBLAS, but there was no current CUDA context! Attempting to set the primary context... (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\cuda\CublasHandlePool.cpp:335.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+INFO:     127.0.0.1:50322 - "POST /gradcam HTTP/1.1" 200 OK
+W0000 00:00:1783660032.215668   22884 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783660032.232106   22596 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783660032.263620   22596 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+INFO:     127.0.0.1:59397 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61366 - "POST /gradcam HTTP/1.1" 200 OK
+W0000 00:00:1783660051.081418   26576 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783660051.097580   22728 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783660051.125619   18228 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+INFO:     127.0.0.1:55394 - "GET /health HTTP/1.1" 200 OK
+[PREDICT] Ingested file: adohikbdaz.mp4
+          Verdict: Real (prob: 0.0036, conf: 0.9964)
+          Anomalies -> VFR: False, Missing Audio: False, Missing Created Time: True
+INFO:     127.0.0.1:52577 - "POST /predict HTTP/1.1" 200 OK
+W0000 00:00:1783660063.865267   22880 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783660063.881449   27240 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783660063.910790    3188 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+INFO:     127.0.0.1:49807 - "GET /health HTTP/1.1" 200 OK
+[PREDICT] Ingested file: afoovlsmtx.mp4
+          Verdict: Real (prob: 0.0024, conf: 0.9976)
+          Anomalies -> VFR: False, Missing Audio: False, Missing Created Time: True
+INFO:     127.0.0.1:64946 - "POST /predict HTTP/1.1" 200 OK
+W0000 00:00:1783660077.765020   16916 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783660077.780953   28496 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783660077.812022   23164 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+[PREDICT] Ingested file: aknbdpmgua.mp4
+          Verdict: Real (prob: 0.5968, conf: 0.4032)
+          Anomalies -> VFR: False, Missing Audio: False, Missing Created Time: True
+INFO:     127.0.0.1:54445 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59931 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50484 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65335 - "GET /health HTTP/1.1" 200 OK
+W0000 00:00:1783660116.022819   17208 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783660116.038077   19044 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783660116.069119   13240 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+INFO:     127.0.0.1:54759 - "GET /health HTTP/1.1" 200 OK
+[PREDICT] Ingested file: apgjqzkoma.mp4
+          Verdict: Real (prob: 0.0031, conf: 0.9969)
+          Anomalies -> VFR: False, Missing Audio: False, Missing Created Time: True
+INFO:     127.0.0.1:51901 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60928 - "GET /health HTTP/1.1" 200 OK
+W0000 00:00:1783660154.419713   11956 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783660154.434692    4976 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783660154.460990   11540 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+INFO:     127.0.0.1:61778 - "GET /health HTTP/1.1" 200 OK
+[PREDICT] Ingested file: avmjormvsx.mp4
+          Verdict: Real (prob: 0.0007, conf: 0.9993)
+          Anomalies -> VFR: False, Missing Audio: False, Missing Created Time: True
+INFO:     127.0.0.1:53361 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60074 - "GET /health HTTP/1.1" 200 OK
+W0000 00:00:1783660181.874927   15548 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783660181.891225   16240 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783660181.919331    7716 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+[PREDICT] Ingested file: aczrgyricp.mp4
+          Verdict: Real (prob: 0.0054, conf: 0.9946)
+          Anomalies -> VFR: False, Missing Audio: False, Missing Created Time: True
+INFO:     127.0.0.1:58468 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60299 - "GET /health HTTP/1.1" 200 OK
+W0000 00:00:1783660190.521155   24928 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783660190.535677    5688 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783660190.562805    5688 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+[PREDICT] Ingested file: aczrgyricp.mp4
+          Verdict: Real (prob: 0.0054, conf: 0.9946)
+          Anomalies -> VFR: False, Missing Audio: False, Missing Created Time: True
+INFO:     127.0.0.1:65117 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58217 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51450 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62497 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59622 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51851 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63111 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50978 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61844 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57290 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57977 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53846 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50119 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50231 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55017 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55838 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54057 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53541 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65246 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54169 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59285 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59266 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55345 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57898 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57925 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61681 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63678 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63321 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57857 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51148 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64192 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60175 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60700 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63435 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62420 - "GET /health HTTP/1.1" 200 OK
+W0000 00:00:1783661897.196268   12552 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783661897.315368    8536 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783661897.472407   13884 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+INFO:     127.0.0.1:58332 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63699 - "GET /health HTTP/1.1" 200 OK
+W0000 00:00:1783661931.490678   11124 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+W0000 00:00:1783661931.712089   18864 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1783661932.016209    9268 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored in: <_io.BufferedReader>
+Traceback (most recent call last):
+  File "C:\Users\srees\miniconda3\Lib\site-packages\lz4\frame\__init__.py", line 753, in flush
+    self._fp.flush()
+ValueError: I/O operation on closed file.
+INFO:     127.0.0.1:61700 - "GET /health HTTP/1.1" 200 OK
+[PREDICT] Ingested file: aapnvogymq.mp4
+          Verdict: Real (prob: 0.8166, conf: 0.1834)
+          Anomalies -> VFR: False, Missing Audio: False, Missing Created Time: True
+INFO:     127.0.0.1:49323 - "GET /health HTTP/1.1" 200 OK
+[PREDICT] Ingested file: aapnvogymq.mp4
+          Verdict: Real (prob: 0.8166, conf: 0.1834)
+          Anomalies -> VFR: False, Missing Audio: False, Missing Created Time: True
+INFO:     127.0.0.1:60400 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57371 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55987 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55137 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64906 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61937 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54902 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59565 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51496 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53142 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53667 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57181 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63744 - "GET /health HTTP/1.1" 200 OK

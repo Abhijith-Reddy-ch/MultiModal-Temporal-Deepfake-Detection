@@ -1,0 +1,53 @@
+# Raw and processed datasets - far too large for git (multi-GB video archives)
+data/
+
+# Trained model checkpoints and archives - large binaries, regenerable from training
+models/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# Node / Next.js
+node_modules/
+.next/
+
+# Claude Code local tool config (not project source)
+.claude/
+
+# LaTeX build artifacts (keep the .tex source and .pdf output)
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+
+# Misc large/generated
+*.zip
+*.rar
+
+# Ad hoc scratch/debug dumps at repo root
+/eval_0.5.txt
+/eval_0.5_utf8.txt
+/eval_out.txt
+/eval_out_0.5.txt
+/eval_output.txt
+/eval_output_utf8.txt
+/eval_results.txt
+/honest_eval_out.txt
+/piplist.txt
+/pypaths.txt
+/training_progress.log
+/deepfake_thesis_mega_report.txt
+/deepfake_technical_report.txt
+/deepfake_project_report.pdf
+
+# Overleaf mirror - redundant with paper/deepfake_detection_ieee.tex
+/paper/paperoverleaf/
+/paper/Deepfake_Literature_Database_Template.xlsx
+/paper/vertopal.com_deepfake_detection_ieee.pdf
+
+# Leftover nested clone from initial GitHub repo setup
+/MultiModal-Temporal-Deepfake-Detection/

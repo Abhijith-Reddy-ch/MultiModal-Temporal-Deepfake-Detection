@@ -1,0 +1,9 @@
+Using device: cuda
+
+[Data Distribution] Real: 2786  Fake: 8358  Total: 11144
+[Val set] 10786 videos
+[Manipulation types] ['real', 'faceswap', 'faceswap-wav2lip', 'fsgan', 'fsgan-wav2lip', 'rtvc', 'wav2lip', 'video_retalking', 'unknown_fake']
+
+[DataLoader] batch_size=8 num_workers=4
+Resuming from completed checkpoint: models\stageA_checkpoint_epoch20.pth (epoch 20)
+Starting Stage A Training (frozen backbone, cached features)...

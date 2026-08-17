@@ -1,0 +1,38 @@
+Using device: cuda
+
+--- Threshold selection on VALIDATION set ---
+  Threshold = 0.10 | F1 = 0.9964
+  Threshold = 0.15 | F1 = 0.9960
+  Threshold = 0.20 | F1 = 0.9958
+  Threshold = 0.25 | F1 = 0.9956
+  Threshold = 0.30 | F1 = 0.9951
+  Threshold = 0.35 | F1 = 0.9949
+  Threshold = 0.40 | F1 = 0.9948
+  Threshold = 0.45 | F1 = 0.9944
+  Threshold = 0.50 | F1 = 0.9942
+  Threshold = 0.55 | F1 = 0.9940
+  Threshold = 0.60 | F1 = 0.9938
+  Threshold = 0.65 | F1 = 0.9935
+  Threshold = 0.70 | F1 = 0.9931
+  Threshold = 0.75 | F1 = 0.9926
+  Threshold = 0.80 | F1 = 0.9919
+  Threshold = 0.85 | F1 = 0.9908
+  Threshold = 0.90 | F1 = 0.9899
+[Chosen Threshold] 0.10 (F1 = 0.9964), frozen for test scoring
+
+=== In-Distribution (FakeAVCeleb+PolyGlotFake test) (threshold=0.10, frozen from validation) ===
+Overall Accuracy: 0.9916
+Precision:        0.9987
+Recall:           0.9928
+F1-score:         0.9957
+Real Accuracy: 0.9350 (115/123)   Fake Accuracy: 0.9928 (5934/5977)
+Confusion Matrix:
+[[ 115    8]
+ [  43 5934]]
+AUC Score: 0.9978
+
+=== Cross-Dataset Generalization (DFDC held-out) ===
+PENDING - no data available yet.
+
+Saved: outputs/plots/roc_curve.png
+----------------------------------------
